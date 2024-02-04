@@ -66,6 +66,10 @@ def rUniform(Minimum, Maximum):
 
 
 def cdfNormal(y, mean, dev):
+    
+# Using Method found in LATIN.FOR,
+# Algorithm 26.2.17 from Abromowitz and Stegun, Handbook of Mathematical Functions
+
     if dev <= 0:
         return error_value
 
@@ -79,7 +83,8 @@ def cdfNormal(y, mean, dev):
     y3 = y2 * y1
     y4 = y3 * y1
     y5 = y4 * y1
-    t = 1 - r * (0.319381530 * y1 + 0.356563782 * y2 + 1.781477937 * y3 + 1.821255978 * y4 + 1.330274429 * y5)
+    t = 1 - r * (0.319381530 * y1 - 0.356563782 * y2 + 1.781477937 * y3 - 1.821255978 * y4 + 1.330274429 * y5)
+
 
     if z > 0:
         return t
@@ -88,6 +93,10 @@ def cdfNormal(y, mean, dev):
 
 
 def icdfNormal(prob, mean, dev):
+    
+# Method and constants taken from function 26.2.26 (pg 933) of Abramowitz and Stegun
+# Handbook of Mathematical Functions, Dover New York, 1965
+
     if dev <= 0:
         return error_value
 
@@ -106,7 +115,7 @@ def icdfNormal(prob, mean, dev):
     t1 = math.sqrt(math.log(1.0 / (xp*xp)))
     t2 = t1*t1
     t3 = t2*t1
-    up = 2.515517 + 0.802853 * t1 + 0.010328 * t2 ** 2
+    up = 2.515517 + 0.802853 * t1 + 0.010328 * t2
     dn = 1 + 1.432788 * t1 + 0.189269 * t2 + 0.001308 * t3
     xp = t1 - up / dn
 
