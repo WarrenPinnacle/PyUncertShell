@@ -1,0 +1,1239 @@
+ReadVersionNum: 6.99100000000000E+0000
+Init_ElevStats:FALSE
+NElevStats:0
+NCats:28
+GISNumber:101
+TextName:DevDryLand
+IsOpenWater:FALSE
+IsTidal:FALSE
+IsNonTidalWetland:FALSE
+IsDryland:TRUE
+IsDeveloped:TRUE
+Color:2950040
+AggCat:0
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:4
+AccrModel:8
+InundateTo:15
+NInundRules:5
+InundRules[i]:1
+InundRules[i]:2
+InundRules[i]:14
+InundRules[i]:15
+InundRules[i]:16
+ErodeTo:-99
+MinElev: 1.00000000000000E+0000
+MinUnit:SaltBound
+MaxElev: 3.04800000000000E+0000
+MaxUnit:Meters
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 0.00000000000000E+0000
+Rsc: 0.00000000000000E+0000
+ECH4: 0.00000000000000E+0000
+CSeqNotes:
+GISNumber:102
+TextName:UndDryLand
+IsOpenWater:FALSE
+IsTidal:FALSE
+IsNonTidalWetland:FALSE
+IsDryland:TRUE
+IsDeveloped:FALSE
+Color:11221
+AggCat:0
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:4
+AccrModel:8
+InundateTo:15
+NInundRules:3
+InundRules[i]:1
+InundRules[i]:15
+InundRules[i]:16
+ErodeTo:-99
+MinElev: 1.00000000000000E+0000
+MinUnit:SaltBound
+MaxElev: 3.04800000000000E+0000
+MaxUnit:Meters
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 1.60000000000000E+0000
+Rsc: 9.00000000000000E-0002
+ECH4: 0.00000000000000E+0000
+CSeqNotes:mab: IPCC 2006 V4 Chap 6 - p6.29 & Table 6.4, for Warm Temperate - Dry Regions; Rsc:Kroodsma and Field 2006 value for non-rice annual cropland
+GISNumber:103
+TextName:Agriculture
+IsOpenWater:FALSE
+IsTidal:FALSE
+IsNonTidalWetland:FALSE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:0
+AggCat:0
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:4
+AccrModel:8
+InundateTo:15
+NInundRules:3
+InundRules[i]:1
+InundRules[i]:15
+InundRules[i]:16
+ErodeTo:-99
+MinElev: 1.00000000000000E+0000
+MinUnit:SaltBound
+MaxElev: 3.04800000000000E+0000
+MaxUnit:Meters
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 1.60000000000000E+0000
+Rsc: 9.00000000000000E-0002
+ECH4: 0.00000000000000E+0000
+CSeqNotes:mab: IPCC 2006 V4 Chap 6 - p6.29 & Table 6.4, for Warm Temperate - Dry Regions; Rsc:Kroodsma and Field 2006 value for non-rice annual cropland
+GISNumber:104
+TextName:Aritificial Pond
+IsOpenWater:FALSE
+IsTidal:FALSE
+IsNonTidalWetland:FALSE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:16750487
+AggCat:1
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:4
+AccrModel:8
+InundateTo:25
+NInundRules:0
+ErodeTo:-99
+MinElev: 1.00000000000000E+0000
+MinUnit:SaltBound
+MaxElev: 3.04800000000000E+0000
+MaxUnit:Meters
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 0.00000000000000E+0000
+Rsc: 0.00000000000000E+0000
+ECH4: 1.93700000000000E-0001
+CSeqNotes:Ech4: IPCC 2013 Table 4.14
+GISNumber:105
+TextName:Artificial Salt Pond
+IsOpenWater:FALSE
+IsTidal:FALSE
+IsNonTidalWetland:FALSE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:16745604
+AggCat:2
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:4
+AccrModel:8
+InundateTo:25
+NInundRules:0
+ErodeTo:-99
+MinElev: 1.00000000000000E+0000
+MinUnit:SaltBound
+MaxElev: 3.04800000000000E+0000
+MaxUnit:Meters
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 0.00000000000000E+0000
+Rsc: 0.00000000000000E+0000
+ECH4: 0.00000000000000E+0000
+CSeqNotes:
+GISNumber:106
+TextName:Inland Open Water
+IsOpenWater:FALSE
+IsTidal:FALSE
+IsNonTidalWetland:FALSE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:16754856
+AggCat:1
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:4
+AccrModel:8
+InundateTo:25
+NInundRules:0
+ErodeTo:-99
+MinElev: 1.00000000000000E+0000
+MinUnit:SaltBound
+MaxElev: 3.04800000000000E+0000
+MaxUnit:Meters
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 0.00000000000000E+0000
+Rsc: 0.00000000000000E+0000
+ECH4: 1.93700000000000E-0001
+CSeqNotes:Ech4: IPCC 2013 Table 4.14
+GISNumber:107
+TextName:Inland Shore
+IsOpenWater:FALSE
+IsTidal:FALSE
+IsNonTidalWetland:FALSE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:16512
+AggCat:1
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:4
+AccrModel:8
+InundateTo:25
+NInundRules:0
+ErodeTo:-99
+MinElev: 1.00000000000000E+0000
+MinUnit:SaltBound
+MaxElev: 3.04800000000000E+0000
+MaxUnit:Meters
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 0.00000000000000E+0000
+Rsc: 0.00000000000000E+0000
+ECH4: 0.00000000000000E+0000
+CSeqNotes:
+GISNumber:108
+TextName:Freshwater Marsh
+IsOpenWater:FALSE
+IsTidal:FALSE
+IsNonTidalWetland:TRUE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:65280
+AggCat:1
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:4
+AccrModel:4
+InundateTo:14
+NInundRules:1
+InundRules[i]:17
+ErodeTo:-99
+MinElev: 1.00000000000000E+0000
+MinUnit:SaltBound
+MaxElev: 3.04800000000000E+0000
+MaxUnit:Meters
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 5.50000000000000E+0000
+Rsc: 3.50000000000000E-0001
+ECH4: 1.93700000000000E-0001
+CSeqNotes:mab: Onuf 1987, Figure 31: Mean biomass of salt marsh plants in Mugu Lagoon (1977-1981); Rsc: Elgin 2012; Ech4: IPCC 2013 Table 4.14
+GISNumber:109
+TextName:Seasonal Freshwater Marsh
+IsOpenWater:FALSE
+IsTidal:FALSE
+IsNonTidalWetland:TRUE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:13260475
+AggCat:1
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:4
+AccrModel:4
+InundateTo:14
+NInundRules:1
+InundRules[i]:17
+ErodeTo:-99
+MinElev: 1.00000000000000E+0000
+MinUnit:SaltBound
+MaxElev: 3.04800000000000E+0000
+MaxUnit:Meters
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 5.50000000000000E+0000
+Rsc: 3.50000000000000E-0001
+ECH4: 1.93700000000000E-0001
+CSeqNotes:mab: Onuf 1987, Figure 31: Mean biomass of salt marsh plants in Mugu Lagoon (1977-1981); Rsc: Elgin 2012; Ech4: IPCC 2013 Table 4.14
+GISNumber:110
+TextName:Seasonally Flooded Agriculture
+IsOpenWater:FALSE
+IsTidal:FALSE
+IsNonTidalWetland:FALSE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:4737096
+AggCat:1
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:4
+AccrModel:8
+InundateTo:14
+NInundRules:3
+InundRules[i]:1
+InundRules[i]:15
+InundRules[i]:16
+ErodeTo:-99
+MinElev: 1.00000000000000E+0000
+MinUnit:SaltBound
+MaxElev: 3.04800000000000E+0000
+MaxUnit:Meters
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 1.60000000000000E+0000
+Rsc: 9.00000000000000E-0002
+ECH4: 1.93700000000000E-0001
+CSeqNotes:mab: IPCC 2006 V4 Chap 6 - p6.29 & Table 6.4, for Warm Temperate - Dry Regions; Rsc:Kroodsma and Field 2006 value for non-rice annual cropland; Ech4: IPCC 2013 Table 4.14
+GISNumber:111
+TextName:Dunes
+IsOpenWater:FALSE
+IsTidal:FALSE
+IsNonTidalWetland:FALSE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:56797
+AggCat:0
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:4
+AccrModel:8
+InundateTo:18
+NInundRules:0
+ErodeTo:-99
+MinElev: 1.00000000000000E+0000
+MinUnit:SaltBound
+MaxElev: 3.04800000000000E+0000
+MaxUnit:Meters
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 0.00000000000000E+0000
+Rsc: 0.00000000000000E+0000
+ECH4: 0.00000000000000E+0000
+CSeqNotes:
+GISNumber:112
+TextName:Freshwater Forested/Shrub
+IsOpenWater:FALSE
+IsTidal:FALSE
+IsNonTidalWetland:TRUE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:2255389
+AggCat:1
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:1
+AccrModel:7
+InundateTo:15
+NInundRules:1
+InundRules[i]:16
+ErodeTo:21
+MinElev: 1.00000000000000E+0000
+MinUnit:SaltBound
+MaxElev: 3.04800000000000E+0000
+MaxUnit:Meters
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 5.50000000000000E+0000
+Rsc: 3.50000000000000E-0001
+ECH4: 1.93700000000000E-0001
+CSeqNotes:mab: Onuf 1987, Figure 31: Mean biomass of salt marsh plants in Mugu Lagoon (1977-1981); Rsc: Elgin 2012; Ech4: IPCC 2013 Table 4.14
+GISNumber:113
+TextName:Tidal Freshwater Forested/Shrub
+IsOpenWater:FALSE
+IsTidal:TRUE
+IsNonTidalWetland:FALSE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:3466109
+AggCat:6
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:1
+AccrModel:6
+InundateTo:14
+NInundRules:1
+InundRules[i]:17
+ErodeTo:21
+MinElev: 0.00000000000000E+0000
+MinUnit:HalfTide
+MaxElev: 1.00000000000000E+0000
+MaxUnit:SaltBound
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 5.50000000000000E+0000
+Rsc: 3.50000000000000E-0001
+ECH4: 1.93700000000000E-0001
+CSeqNotes:mab: Onuf 1987, Figure 31: Mean biomass of salt marsh plants in Mugu Lagoon (1977-1981); Rsc: Elgin 2012; Ech4: IPCC 2013 Table 4.14
+GISNumber:114
+TextName:Tidal Fresh Marsh
+IsOpenWater:FALSE
+IsTidal:TRUE
+IsNonTidalWetland:FALSE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:13494181
+AggCat:6
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:TRUE
+ErodeModel:0
+AccrModel:3
+InundateTo:21
+NInundRules:2
+InundRules[i]:18
+InundRules[i]:19
+ErodeTo:25
+MinElev: 0.00000000000000E+0000
+MinUnit:HalfTide
+MaxElev: 1.00000000000000E+0000
+MaxUnit:SaltBound
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 5.50000000000000E+0000
+Rsc: 3.50000000000000E-0001
+ECH4: 1.93700000000000E-0001
+CSeqNotes:mab: Onuf 1987, Figure 31: Mean biomass of salt marsh plants in Mugu Lagoon (1977-1981); Rsc: Elgin 2012; Ech4: IPCC 2013 Table 4.14
+GISNumber:115
+TextName:Irreg.-Flooded Marsh
+IsOpenWater:FALSE
+IsTidal:TRUE
+IsNonTidalWetland:FALSE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:4227327
+AggCat:5
+UseIFMCollapse:TRUE
+UseRFMCollapse:FALSE
+UseWaveErosion:TRUE
+ErodeModel:0
+AccrModel:1
+InundateTo:19
+NInundRules:0
+ErodeTo:25
+MinElev: 2.50000000000000E-0001
+MinUnit:HalfTide
+MaxElev: 1.00000000000000E+0000
+MaxUnit:SaltBound
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 3.90000000000000E+0000
+Rsc: 2.50000000000000E-0001
+ECH4: 0.00000000000000E+0000
+CSeqNotes:Assume 70% cover of regularly flooded salt marsh
+GISNumber:116
+TextName:Estuarine forested/shrub wetland
+IsOpenWater:FALSE
+IsTidal:TRUE
+IsNonTidalWetland:FALSE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:34952
+AggCat:5
+UseIFMCollapse:TRUE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:1
+AccrModel:1
+InundateTo:19
+NInundRules:0
+ErodeTo:21
+MinElev: 1.00000000000000E+0000
+MinUnit:HalfTide
+MaxElev: 1.00000000000000E+0000
+MaxUnit:SaltBound
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 5.50000000000000E+0000
+Rsc: 3.50000000000000E-0001
+ECH4: 0.00000000000000E+0000
+CSeqNotes:mab: Onuf 1987, Figure 31: Mean biomass of salt marsh plants in Mugu Lagoon (1977-1981); Rsc: Elgin 2012
+GISNumber:117
+TextName:Artificial reef
+IsOpenWater:FALSE
+IsTidal:TRUE
+IsNonTidalWetland:FALSE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:8388736
+AggCat:3
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:4
+AccrModel:8
+InundateTo:25
+NInundRules:0
+ErodeTo:-99
+MinElev:-1.00000000000000E+0000
+MinUnit:HalfTide
+MaxElev: 1.00000000000000E+0000
+MaxUnit:SaltBound
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 0.00000000000000E+0000
+Rsc: 0.00000000000000E+0000
+ECH4: 0.00000000000000E+0000
+CSeqNotes:
+GISNumber:118
+TextName:Invertebrate reef
+IsOpenWater:FALSE
+IsTidal:TRUE
+IsNonTidalWetland:FALSE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:8388736
+AggCat:3
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:4
+AccrModel:8
+InundateTo:25
+NInundRules:0
+ErodeTo:-99
+MinElev:-1.00000000000000E+0000
+MinUnit:HalfTide
+MaxElev: 1.00000000000000E+0000
+MaxUnit:SaltBound
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 0.00000000000000E+0000
+Rsc: 0.00000000000000E+0000
+ECH4: 0.00000000000000E+0000
+CSeqNotes:
+GISNumber:119
+TextName:Ocean Beach
+IsOpenWater:FALSE
+IsTidal:TRUE
+IsNonTidalWetland:FALSE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:65535
+AggCat:3
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:3
+AccrModel:2
+InundateTo:26
+NInundRules:0
+ErodeTo:26
+MinElev:-1.00000000000000E+0000
+MinUnit:HalfTide
+MaxElev: 1.00000000000000E+0000
+MaxUnit:SaltBound
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 0.00000000000000E+0000
+Rsc: 0.00000000000000E+0000
+ECH4: 0.00000000000000E+0000
+CSeqNotes:
+GISNumber:120
+TextName:Regularly-flooded Marsh
+IsOpenWater:FALSE
+IsTidal:TRUE
+IsNonTidalWetland:FALSE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:10921472
+AggCat:4
+UseIFMCollapse:FALSE
+UseRFMCollapse:TRUE
+UseWaveErosion:TRUE
+ErodeModel:0
+AccrModel:0
+InundateTo:21
+NInundRules:0
+ErodeTo:25
+MinElev: 0.00000000000000E+0000
+MinUnit:Meters
+MaxElev: 1.20000000000000E+0000
+MaxUnit:HalfTide
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 5.50000000000000E+0000
+Rsc: 3.50000000000000E-0001
+ECH4: 0.00000000000000E+0000
+CSeqNotes:mab: Onuf 1987, Figure 31: Mean biomass of salt marsh plants in Mugu Lagoon (1977-1981); Rsc: Elgin 2012
+GISNumber:121
+TextName:Rocky Intertidal
+IsOpenWater:FALSE
+IsTidal:TRUE
+IsNonTidalWetland:FALSE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:16744703
+AggCat:3
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:4
+AccrModel:8
+InundateTo:25
+NInundRules:1
+InundRules[i]:20
+ErodeTo:-99
+MinElev:-1.00000000000000E+0000
+MinUnit:HalfTide
+MaxElev: 1.00000000000000E+0000
+MaxUnit:SaltBound
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 0.00000000000000E+0000
+Rsc: 0.00000000000000E+0000
+ECH4: 0.00000000000000E+0000
+CSeqNotes:
+GISNumber:122
+TextName:Tidal Flat and Salt Panne
+IsOpenWater:TRUE
+IsTidal:TRUE
+IsNonTidalWetland:FALSE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:12632256
+AggCat:3
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:2
+AccrModel:2
+InundateTo:25
+NInundRules:1
+InundRules[i]:20
+ErodeTo:25
+MinElev:-1.00000000000000E+0000
+MinUnit:HalfTide
+MaxElev: 0.00000000000000E+0000
+MaxUnit:Meters
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 0.00000000000000E+0000
+Rsc: 0.00000000000000E+0000
+ECH4: 0.00000000000000E+0000
+CSeqNotes:
+GISNumber:123
+TextName:Riverine (open water)
+IsOpenWater:TRUE
+IsTidal:FALSE
+IsNonTidalWetland:FALSE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:8388608
+AggCat:2
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:4
+AccrModel:8
+InundateTo:23
+NInundRules:0
+ErodeTo:-99
+MinElev: 1.00000000000000E+0000
+MinUnit:SaltBound
+MaxElev: 3.04800000000000E+0000
+MaxUnit:Meters
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 0.00000000000000E+0000
+Rsc: 0.00000000000000E+0000
+ECH4: 1.93700000000000E-0001
+CSeqNotes:Ech4: IPCC 2013 Table 4.14
+GISNumber:124
+TextName:Riverine Tidal
+IsOpenWater:TRUE
+IsTidal:TRUE
+IsNonTidalWetland:FALSE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:8388608
+AggCat:2
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:4
+AccrModel:8
+InundateTo:-99
+NInundRules:0
+ErodeTo:-99
+MinElev: 0.00000000000000E+0000
+MinUnit:Meters
+MaxElev: 0.00000000000000E+0000
+MaxUnit:Meters
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 0.00000000000000E+0000
+Rsc: 0.00000000000000E+0000
+ECH4: 1.93700000000000E-0001
+CSeqNotes:Ech4: IPCC 2013 Table 4.14
+GISNumber:125
+TextName:Tidal Channel
+IsOpenWater:TRUE
+IsTidal:TRUE
+IsNonTidalWetland:FALSE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:8388608
+AggCat:2
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:4
+AccrModel:8
+InundateTo:-99
+NInundRules:0
+ErodeTo:-99
+MinElev: 0.00000000000000E+0000
+MinUnit:Meters
+MaxElev: 0.00000000000000E+0000
+MaxUnit:Meters
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 0.00000000000000E+0000
+Rsc: 0.00000000000000E+0000
+ECH4: 0.00000000000000E+0000
+CSeqNotes:
+GISNumber:126
+TextName:Estuarine Open Water
+IsOpenWater:TRUE
+IsTidal:TRUE
+IsNonTidalWetland:FALSE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:8388608
+AggCat:2
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:4
+AccrModel:8
+InundateTo:-99
+NInundRules:0
+ErodeTo:-99
+MinElev: 0.00000000000000E+0000
+MinUnit:Meters
+MaxElev: 0.00000000000000E+0000
+MaxUnit:Meters
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 0.00000000000000E+0000
+Rsc: 0.00000000000000E+0000
+ECH4: 0.00000000000000E+0000
+CSeqNotes:
+GISNumber:127
+TextName:Open Ocean
+IsOpenWater:TRUE
+IsTidal:TRUE
+IsNonTidalWetland:FALSE
+IsDryland:FALSE
+IsDeveloped:FALSE
+Color:8388608
+AggCat:2
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:4
+AccrModel:8
+InundateTo:-99
+NInundRules:0
+ErodeTo:-99
+MinElev: 0.00000000000000E+0000
+MinUnit:Meters
+MaxElev: 0.00000000000000E+0000
+MaxUnit:Meters
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 0.00000000000000E+0000
+Rsc: 0.00000000000000E+0000
+ECH4: 0.00000000000000E+0000
+CSeqNotes:
+GISNumber:128
+TextName:Flooded Developed
+IsOpenWater:FALSE
+IsTidal:FALSE
+IsNonTidalWetland:FALSE
+IsDryland:FALSE
+IsDeveloped:TRUE
+Color:16737457
+AggCat:5
+UseIFMCollapse:FALSE
+UseRFMCollapse:FALSE
+UseWaveErosion:FALSE
+ErodeModel:4
+AccrModel:8
+InundateTo:-99
+NInundRules:0
+ErodeTo:-99
+MinElev: 1.00000000000000E+0000
+MinUnit:SaltBound
+MaxElev: 3.04800000000000E+0000
+MaxUnit:Meters
+SalRules:FALSE
+HasSalStats:FALSE
+mab: 0.00000000000000E+0000
+Rsc: 0.00000000000000E+0000
+ECH4: 0.00000000000000E+0000
+CSeqNotes:
+DevDryLand:0
+UndDryLand:1
+FloodDevDryLand:27
+OpenOcean:26
+EstuarineWater:25
+SimName:Santa Ynez
+Descrip:
+Rows:698
+Cols:1100
+LLXCorner:-5.56471000000000E+0004
+LLYCorner:-3.71216760000000E+0005
+Scale: 5.00000000000000E+0000
+NSubSites:1
+Poly.NumPts:9
+TPoints[i-1].x:87
+TPoints[i-1].y:244
+TPoints[i-1].x:63
+TPoints[i-1].y:331
+TPoints[i-1].x:93
+TPoints[i-1].y:519
+TPoints[i-1].x:645
+TPoints[i-1].y:683
+TPoints[i-1].x:854
+TPoints[i-1].y:660
+TPoints[i-1].x:976
+TPoints[i-1].y:367
+TPoints[i-1].x:503
+TPoints[i-1].y:132
+TPoints[i-1].x:140
+TPoints[i-1].y:50
+TPoints[i-1].x:140
+TPoints[i-1].y:50
+Description:Lagoonal
+NWI_Photo_Date:2010
+DEM_date:2010
+Direction_Offshore:Westerly
+Historic_trend: 1.70000000000000E+0000
+Historic_Eustatic_trend: 1.70000000000000E+0000
+NAVD88MTL_correction: 8.49400000000000E-0001
+GTideRange: 1.67000000000000E+0000
+SaltElev: 1.00000000000000E+0000
+30D Inundation: 0.00000000000000E+0000
+60D Inundation: 0.00000000000000E+0000
+90D Inundation: 0.00000000000000E+0000
+Storm Inundation 1: 0.00000000000000E+0000
+Storm Inundation 2: 0.00000000000000E+0000
+MarshErosion: 1.00000000000000E+0000
+MarshErodeFetch: 9.00000000000000E+0000
+SwampErosion: 2.00000000000000E-0001
+TFlatErosion: 1.00000000000000E+0000
+FixedRegFloodAccr: 4.00000000000000E+0000
+FixedIrregFloodAccr: 4.00000000000000E+0000
+FixedTideFreshAccr: 5.00000000000000E+0000
+InlandFreshAccr: 1.00000000000000E+0000
+MangroveAccr: 0.00000000000000E+0000
+TSwampAccr: 2.00000000000000E+0000
+SwampAccr: 1.00000000000000E+0000
+IFM2RFM_Collapse: 0.00000000000000E+0000
+RFM2TF_Collapse: 0.00000000000000E+0000
+Fixed_TF_Beach_Sed: 1.00000000000000E+0000
+Use_Preprocessor:FALSE
+USE_Wave_Erosion:FALSE
+WE_Alpha: 2.00000000000000E-0001
+WE_Has_Bathymetry:TRUE
+WE_Avg_Shallow_Depth: 1.00000000000000E+0000
+LagoonType:3
+ZBeachCrest: 3.65760000000000E+0000
+LBeta: 4.51279530000000E-0001
+UseAccrModel[i]:FALSE
+MaxAccr[i]: 0.00000000000000E+0000
+MinAccr[i]: 0.00000000000000E+0000
+AccrA[i]: 0.00000000000000E+0000
+AccrB[i]: 0.00000000000000E+0000
+AccrC[i]: 0.00000000000000E+0000
+AccrD[i]: 0.00000000000000E+0000
+AccrNotes[i]:
+UseAccrModel[i]:FALSE
+MaxAccr[i]: 0.00000000000000E+0000
+MinAccr[i]: 0.00000000000000E+0000
+AccrA[i]: 0.00000000000000E+0000
+AccrB[i]: 0.00000000000000E+0000
+AccrC[i]: 0.00000000000000E+0000
+AccrD[i]: 0.00000000000000E+0000
+AccrNotes[i]:
+UseAccrModel[i]:FALSE
+MaxAccr[i]: 0.00000000000000E+0000
+MinAccr[i]: 0.00000000000000E+0000
+AccrA[i]: 0.00000000000000E+0000
+AccrB[i]: 0.00000000000000E+0000
+AccrC[i]: 0.00000000000000E+0000
+AccrD[i]: 0.00000000000000E+0000
+AccrNotes[i]:
+UseAccrModel[i]:FALSE
+MaxAccr[i]: 0.00000000000000E+0000
+MinAccr[i]: 0.00000000000000E+0000
+AccrA[i]: 0.00000000000000E+0000
+AccrB[i]: 0.00000000000000E+0000
+AccrC[i]: 0.00000000000000E+0000
+AccrD[i]: 0.00000000000000E+0000
+AccrNotes[i]:
+NOutputSites:0
+Poly.NumPts:0
+Description:Oceanic
+NWI_Photo_Date:2010
+DEM_date:2010
+Direction_Offshore:Westerly
+Historic_trend: 1.70000000000000E+0000
+Historic_Eustatic_trend: 1.70000000000000E+0000
+NAVD88MTL_correction: 8.49400000000000E-0001
+GTideRange: 1.67000000000000E+0000
+SaltElev: 1.00000000000000E+0000
+30D Inundation: 0.00000000000000E+0000
+60D Inundation: 0.00000000000000E+0000
+90D Inundation: 0.00000000000000E+0000
+Storm Inundation 1: 0.00000000000000E+0000
+Storm Inundation 2: 0.00000000000000E+0000
+MarshErosion: 1.00000000000000E+0000
+MarshErodeFetch: 9.00000000000000E+0000
+SwampErosion: 2.00000000000000E-0001
+TFlatErosion: 1.00000000000000E+0000
+FixedRegFloodAccr: 4.00000000000000E+0000
+FixedIrregFloodAccr: 4.00000000000000E+0000
+FixedTideFreshAccr: 5.00000000000000E+0000
+InlandFreshAccr: 1.00000000000000E+0000
+MangroveAccr: 0.00000000000000E+0000
+TSwampAccr: 2.00000000000000E+0000
+SwampAccr: 1.00000000000000E+0000
+IFM2RFM_Collapse: 0.00000000000000E+0000
+RFM2TF_Collapse: 0.00000000000000E+0000
+Fixed_TF_Beach_Sed: 1.00000000000000E+0000
+Use_Preprocessor:FALSE
+USE_Wave_Erosion:FALSE
+WE_Alpha: 0.00000000000000E+0000
+WE_Has_Bathymetry:FALSE
+WE_Avg_Shallow_Depth: 1.00000000000000E+0000
+LagoonType:0
+ZBeachCrest: 0.00000000000000E+0000
+LBeta: 0.00000000000000E+0000
+UseAccrModel[i]:FALSE
+MaxAccr[i]: 0.00000000000000E+0000
+MinAccr[i]: 0.00000000000000E+0000
+AccrA[i]: 0.00000000000000E+0000
+AccrB[i]: 0.00000000000000E+0000
+AccrC[i]: 0.00000000000000E+0000
+AccrD[i]: 0.00000000000000E+0000
+AccrNotes[i]:
+UseAccrModel[i]:FALSE
+MaxAccr[i]: 0.00000000000000E+0000
+MinAccr[i]: 0.00000000000000E+0000
+AccrA[i]: 0.00000000000000E+0000
+AccrB[i]: 0.00000000000000E+0000
+AccrC[i]: 0.00000000000000E+0000
+AccrD[i]: 0.00000000000000E+0000
+AccrNotes[i]:
+UseAccrModel[i]:FALSE
+MaxAccr[i]: 0.00000000000000E+0000
+MinAccr[i]: 0.00000000000000E+0000
+AccrA[i]: 0.00000000000000E+0000
+AccrB[i]: 0.00000000000000E+0000
+AccrC[i]: 0.00000000000000E+0000
+AccrD[i]: 0.00000000000000E+0000
+AccrNotes[i]:
+UseAccrModel[i]:FALSE
+MaxAccr[i]: 0.00000000000000E+0000
+MinAccr[i]: 0.00000000000000E+0000
+AccrA[i]: 0.00000000000000E+0000
+AccrB[i]: 0.00000000000000E+0000
+AccrC[i]: 0.00000000000000E+0000
+AccrD[i]: 0.00000000000000E+0000
+AccrNotes[i]:
+WindRose[1,1]: 2.90000000000000E-0001
+WindRose[1,2]: 1.07000000000000E+0000
+WindRose[1,3]: 5.60000000000000E-0001
+WindRose[1,4]: 1.00000000000000E-0002
+WindRose[1,5]: 1.00000000000000E-0002
+WindRose[1,6]: 0.00000000000000E+0000
+WindRose[1,7]: 0.00000000000000E+0000
+WindRose[2,1]: 2.30000000000000E-0001
+WindRose[2,2]: 7.70000000000000E-0001
+WindRose[2,3]: 2.40000000000000E-0001
+WindRose[2,4]: 2.00000000000000E-0002
+WindRose[2,5]: 2.00000000000000E-0002
+WindRose[2,6]: 0.00000000000000E+0000
+WindRose[2,7]: 0.00000000000000E+0000
+WindRose[3,1]: 1.80000000000000E-0001
+WindRose[3,2]: 6.40000000000000E-0001
+WindRose[3,3]: 1.50000000000000E-0001
+WindRose[3,4]: 3.00000000000000E-0002
+WindRose[3,5]: 0.00000000000000E+0000
+WindRose[3,6]: 0.00000000000000E+0000
+WindRose[3,7]: 0.00000000000000E+0000
+WindRose[4,1]: 1.80000000000000E-0001
+WindRose[4,2]: 7.40000000000000E-0001
+WindRose[4,3]: 3.30000000000000E-0001
+WindRose[4,4]: 9.00000000000000E-0002
+WindRose[4,5]: 1.00000000000000E-0002
+WindRose[4,6]: 0.00000000000000E+0000
+WindRose[4,7]: 0.00000000000000E+0000
+WindRose[5,1]: 5.30000000000000E-0001
+WindRose[5,2]: 1.28000000000000E+0000
+WindRose[5,3]: 1.56000000000000E+0000
+WindRose[5,4]: 1.26000000000000E+0000
+WindRose[5,5]: 7.30000000000000E-0001
+WindRose[5,6]: 1.50000000000000E-0001
+WindRose[5,7]: 2.00000000000000E-0002
+WindRose[6,1]: 2.80000000000000E-0001
+WindRose[6,2]: 3.12000000000000E+0000
+WindRose[6,3]: 6.28000000000000E+0000
+WindRose[6,4]: 5.25000000000000E+0000
+WindRose[6,5]: 2.63000000000000E+0000
+WindRose[6,6]: 9.20000000000000E-0001
+WindRose[6,7]: 1.60000000000000E-0001
+WindRose[7,1]: 3.30000000000000E-0001
+WindRose[7,2]: 2.33000000000000E+0000
+WindRose[7,3]: 3.43000000000000E+0000
+WindRose[7,4]: 1.59000000000000E+0000
+WindRose[7,5]: 8.40000000000000E-0001
+WindRose[7,6]: 3.00000000000000E-0001
+WindRose[7,7]: 6.00000000000000E-0002
+WindRose[8,1]: 3.50000000000000E-0001
+WindRose[8,2]: 1.74000000000000E+0000
+WindRose[8,3]: 3.07000000000000E+0000
+WindRose[8,4]: 1.42000000000000E+0000
+WindRose[8,5]: 2.60000000000000E-0001
+WindRose[8,6]: 2.00000000000000E-0002
+WindRose[8,7]: 0.00000000000000E+0000
+WindRose[9,1]: 3.80000000000000E-0001
+WindRose[9,2]: 2.00000000000000E+0000
+WindRose[9,3]: 2.21000000000000E+0000
+WindRose[9,4]: 7.00000000000000E-0001
+WindRose[9,5]: 9.00000000000000E-0002
+WindRose[9,6]: 1.00000000000000E-0002
+WindRose[9,7]: 0.00000000000000E+0000
+WindRose[10,1]: 4.90000000000000E-0001
+WindRose[10,2]: 2.70000000000000E+0000
+WindRose[10,3]: 2.17000000000000E+0000
+WindRose[10,4]: 4.90000000000000E-0001
+WindRose[10,5]: 4.00000000000000E-0002
+WindRose[10,6]: 0.00000000000000E+0000
+WindRose[10,7]: 0.00000000000000E+0000
+WindRose[11,1]: 7.30000000000000E-0001
+WindRose[11,2]: 3.85000000000000E+0000
+WindRose[11,3]: 1.83000000000000E+0000
+WindRose[11,4]: 4.80000000000000E-0001
+WindRose[11,5]: 7.00000000000000E-0002
+WindRose[11,6]: 1.00000000000000E-0002
+WindRose[11,7]: 0.00000000000000E+0000
+WindRose[12,1]: 1.03000000000000E+0000
+WindRose[12,2]: 5.76000000000000E+0000
+WindRose[12,3]: 5.20000000000000E-0001
+WindRose[12,4]: 3.00000000000000E-0002
+WindRose[12,5]: 0.00000000000000E+0000
+WindRose[12,6]: 0.00000000000000E+0000
+WindRose[12,7]: 0.00000000000000E+0000
+WindRose[13,1]: 1.21000000000000E+0000
+WindRose[13,2]: 8.12000000000000E+0000
+WindRose[13,3]: 4.10000000000000E-0001
+WindRose[13,4]: 5.00000000000000E-0002
+WindRose[13,5]: 0.00000000000000E+0000
+WindRose[13,6]: 0.00000000000000E+0000
+WindRose[13,7]: 0.00000000000000E+0000
+WindRose[14,1]: 9.20000000000000E-0001
+WindRose[14,2]: 4.48000000000000E+0000
+WindRose[14,3]: 1.49000000000000E+0000
+WindRose[14,4]: 6.50000000000000E-0001
+WindRose[14,5]: 1.20000000000000E-0001
+WindRose[14,6]: 3.00000000000000E-0002
+WindRose[14,7]: 0.00000000000000E+0000
+WindRose[15,1]: 6.40000000000000E-0001
+WindRose[15,2]: 2.23000000000000E+0000
+WindRose[15,3]: 2.25000000000000E+0000
+WindRose[15,4]: 1.89000000000000E+0000
+WindRose[15,5]: 9.80000000000000E-0001
+WindRose[15,6]: 2.70000000000000E-0001
+WindRose[15,7]: 0.00000000000000E+0000
+WindRose[16,1]: 3.70000000000000E-0001
+WindRose[16,2]: 1.45000000000000E+0000
+WindRose[16,3]: 9.40000000000000E-0001
+WindRose[16,4]: 3.30000000000000E-0001
+WindRose[16,5]: 1.10000000000000E-0001
+WindRose[16,6]: 2.00000000000000E-0002
+WindRose[16,7]: 0.00000000000000E+0000
+NumFwFlows:0
+NRules:0
+NRoadInf:0
+NPointInf:0
+NTimeSerSLR:3
+Name:NRC SoCA High
+BaseYear:2000
+NYears:10
+RunNow:FALSE
+SLRArr[i].Year:2010
+SLRArr[i].Value: 8.20000000000000E-0002
+SLRArr[i].Year:2020
+SLRArr[i].Value: 1.85000000000000E-0001
+SLRArr[i].Year:2030
+SLRArr[i].Value: 2.99000000000000E-0001
+SLRArr[i].Year:2040
+SLRArr[i].Value: 4.45000000000000E-0001
+SLRArr[i].Year:2050
+SLRArr[i].Value: 6.08000000000000E-0001
+SLRArr[i].Year:2060
+SLRArr[i].Value: 7.78000000000000E-0001
+SLRArr[i].Year:2070
+SLRArr[i].Value: 9.72000000000000E-0001
+SLRArr[i].Year:2080
+SLRArr[i].Value: 1.18500000000000E+0000
+SLRArr[i].Year:2090
+SLRArr[i].Value: 1.41600000000000E+0000
+SLRArr[i].Year:2100
+SLRArr[i].Value: 1.66500000000000E+0000
+Name:NRC SoCA Mid
+BaseYear:2000
+NYears:10
+RunNow:FALSE
+SLRArr[i].Year:2010
+SLRArr[i].Value: 3.30000000000000E-0002
+SLRArr[i].Year:2020
+SLRArr[i].Value: 7.70000000000000E-0002
+SLRArr[i].Year:2030
+SLRArr[i].Value: 1.46000000000000E-0001
+SLRArr[i].Year:2040
+SLRArr[i].Value: 2.06000000000000E-0001
+SLRArr[i].Year:2050
+SLRArr[i].Value: 2.82000000000000E-0001
+SLRArr[i].Year:2060
+SLRArr[i].Value: 3.90000000000000E-0001
+SLRArr[i].Year:2070
+SLRArr[i].Value: 5.03000000000000E-0001
+SLRArr[i].Year:2080
+SLRArr[i].Value: 6.29000000000000E-0001
+SLRArr[i].Year:2090
+SLRArr[i].Value: 7.70000000000000E-0001
+SLRArr[i].Year:2100
+SLRArr[i].Value: 9.25000000000000E-0001
+Name:NRC SoCA Low
+BaseYear:2000
+NYears:10
+RunNow:FALSE
+SLRArr[i].Year:2010
+SLRArr[i].Value: 8.00000000000000E-0003
+SLRArr[i].Year:2020
+SLRArr[i].Value: 2.50000000000000E-0002
+SLRArr[i].Year:2030
+SLRArr[i].Value: 4.50000000000000E-0002
+SLRArr[i].Year:2040
+SLRArr[i].Value: 8.10000000000000E-0002
+SLRArr[i].Year:2050
+SLRArr[i].Value: 1.25000000000000E-0001
+SLRArr[i].Year:2060
+SLRArr[i].Value: 1.68000000000000E-0001
+SLRArr[i].Year:2070
+SLRArr[i].Value: 2.23000000000000E-0001
+SLRArr[i].Year:2080
+SLRArr[i].Value: 2.86000000000000E-0001
+SLRArr[i].Year:2090
+SLRArr[i].Value: 3.56000000000000E-0001
+SLRArr[i].Year:2100
+SLRArr[i].Value: 4.33000000000000E-0001
+TimeStep:25
+MaxYear:2100
+RunSpecificYears:FALSE
+YearsString:
+RunUncertainty:FALSE
+RunSensitivity:FALSE
+Scen_A1B:FALSE
+Scen_A1T:FALSE
+Scen_A1F1:FALSE
+Scen_A2:FALSE
+Scen_B1:FALSE
+Scen_B2:FALSE
+Est_Min:FALSE
+Est_Mean:FALSE
+Est_Max:FALSE
+Fix1.0M:FALSE
+Fix1.5M:FALSE
+Fix2.0M:FALSE
+NYS_GCM_Max:FALSE
+NYS_1M_2100:FALSE
+NYS_RIM_Min:FALSE
+NYS_RIM_Max:FALSE
+ESVA_Hist:FALSE
+ESVA_Low:FALSE
+ESVA_High:FALSE
+ESVA_Highest:FALSE
+Prot_To_Run[NoProtect]:TRUE
+Prot_To_Run[ProtDeveloped]:FALSE
+Prot_To_Run[ProtAll]:FALSE
+RunCustomSLR:TRUE
+N_CustomSLR:1
+CustomSLRArray[i]:    1.62488972339820980
+Make_Data_File:FALSE
+Display_Screen_Maps:FALSE
+QA_Tools:FALSE
+RunFirstYear:TRUE
+Maps_to_MSWord:FALSE
+Maps_to_GIF:FALSE
+Complete_RunRec:FALSE
+SalinityMaps:FALSE
+AccretionMaps:FALSE
+DucksMaps:FALSE
+SAVMaps:FALSE
+ConnectMaps:FALSE
+InundMaps:FALSE
+RoadInundMaps:FALSE
+SaveGIS:FALSE
+SaveElevsGIS:FALSE
+SaveElevGISMTL:FALSE
+SaveSalinityGIS:FALSE
+SaveInundGIS:FALSE
+SaveBinaryGIS:FALSE
+SaveROSArea:FALSE
+BatchMode:FALSE
+CheckConnectivity:FALSE
+ConnectMinElev:0
+ConnectNearEight:0
+UseSoilSaturation:TRUE
+LoadBlankIfNoElev:TRUE
+UseBruun:FALSE
+UseFloodForest:FALSE
+UseFloodDevDryLand:FALSE
+InitZoomFactor: 1.00000000000000E+0000
+SaveMapsToDisk:FALSE
+MakeNewDiskMap:TRUE
+IncludeDikes:TRUE
+ClassicDike:TRUE
+BatchFileN:
+ElevFileN:Santa_Ynez_DEM_5m.SLB
+NWIFileN:Santa _Ynez_NWI_5m_531.SLB
+OutputFileN:
+SLPFileN:Santa_Ynez_Slope.SLB
+IMPFileN:
+ROSFileN:
+DikFileN:
+StormFileN:
+VDFileN:
+UpliftFileN:
+SalFileN:
+RoadFileN:
+D2MFileN:
+OptimizeLevel:0
+NumMMEntries:767800
+GISEachYear:TRUE
+GISYears: 2100
+NumDists:0
+Seed:20
+Iterations:20
+GIS_Start_Num:1
+UseSeed:TRUE
+UseSEGTSlope:TRUE
+SEGTSlope: 6.59600000000000E-0001
+NumSens:0
+PctToVary:15
+ExecuteImmediately:TRUE
+ROS_Resize:3
+RescaleMap:1
+CheckSum: 6.99100000000000E+0000

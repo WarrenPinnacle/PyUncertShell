@@ -1,0 +1,56 @@
+Important Note, remove all comments and extra spaces before using this file as shown in SY_Delim_Unc.txt in the Model directory
+
+Version, 1.02 beta        # Software version used to generate this input
+Seed, 20                  # Seed for random number generation
+Iterations, 5            # Number of uncertainty iterations
+UseSeed, False            # Use a fixed seed for random number generation (True/False)
+ModelPath, slamm6.exe     # Path to the model executable
+ModelParameter, SantaYnez_Run.txt  # Model-specific parameters or input file, leave blank if no parameter is required
+
+NumDists, 1               # Number of input distributions
+
+# Input Distribution 1
+InputDistName, Custom SLR at 2100  # Name of the input distribution
+InputFile, SantaYnez_Run.txt      # Path to the input file containing data
+LineInFile, 1172            # Line number in the input file
+StartChar, 19               # Starting character position
+NumChars, 22                # Number of characters to read
+DistType, Normal            # Type of distribution (e.g., Normal, Triangular, LogNormal, Uniform)
+Parm1, 9.24000000000000E-0001   # Parameter 1 (specific to the distribution type)
+Parm2, 3.69600000000000E-0001   # Parameter 2 (specific to the distribution type)
+Parm3, 1.20120000000000E+0000   # Parameter 3 (specific to the distribution type)
+Parm4, 0.00000000000000E+0000   # Parameter 4 (specific to the distribution type)
+DisplayCDF, FALSE          # Display Cumulative Distribution Function (True/False)
+PointEstimate, 1.1         # Point estimate for the variable
+
+NumOutputs, 3              # Number of output variables
+
+# Output Variable 1
+OutputVarName, 2100 Low Tidal   # Name of the output variable
+OutputFile, Santa_Ynez_DEM_5m_OUT, 2100,custom.CSV   # Output file details
+LineInFile, 9              # Line number in the output file
+NumOnLine, 39              # Number of values on the line
+StartChar, 421             # Starting character position
+NumChars, 8                # Number of characters to read
+Delimited, TRUE            # Data is delimited (True/False)
+DelimChar, ,               # Delimiter character
+
+# Output Variable 2
+OutputVarName, 2100 Saltmarsh  # Name of the output variable
+OutputFile, Santa_Ynez_DEM_5m_OUT, 2100,custom.CSV   # Output file details
+LineInFile, 9              # Line number in the output file
+NumOnLine, 40              # Number of values on the line
+StartChar, 432             # Starting character position
+NumChars, 8                # Number of characters to read
+Delimited, TRUE            # Data is delimited (True/False)
+DelimChar, ,               # Delimiter character
+
+# Output Variable 3
+OutputVarName, 2100 Transitional  # Name of the output variable
+OutputFile, Santa_Ynez_DEM_5m_OUT, 2100,custom.CSV   # Output file details
+LineInFile, 9              # Line number in the output file
+NumOnLine, 41              # Number of values on the line
+StartChar, 442             # Starting character position
+NumChars, 9                # Number of characters to read
+Delimited, TRUE            # Data is delimited (True/False)
+DelimChar, ,               # Delimiter character

@@ -1,0 +1,44 @@
+Version, 1.02 beta 
+Seed, 20
+Iterations, 5
+UseSeed, False
+ModelPath, slamm6.exe
+ModelParameter, SantaYnez_Run.txt
+NumDists, 1
+InputDistName, Custom SLR at 2100
+InputFile, SantaYnez_Run.txt
+LineInFile, 1172
+StartChar, 19
+NumChars, 22
+DistType, Normal
+Parm1,  9.24000000000000E-0001
+Parm2,  3.69600000000000E-0001
+Parm3,  1.20120000000000E+0000
+Parm4,  0.00000000000000E+0000
+DisplayCDF, FALSE
+PointEstimate,  1.1
+NumOutputs, 3
+OutputVarName, 2100 Low Tidal
+OutputFile, Santa_Ynez_DEM_5m_OUT, 2100,custom.CSV
+LineInFile, 9
+NumOnLine, 39
+StartChar, 421
+NumChars, 8
+Delimited, TRUE
+DelimChar, ,
+OutputVarName, 2100 Saltmarsh
+OutputFile, Santa_Ynez_DEM_5m_OUT, 2100,custom.CSV
+LineInFile, 9
+NumOnLine, 40
+StartChar, 432
+NumChars, 8
+Delimited, TRUE
+DelimChar, ,
+OutputVarName, 2100 Transitional
+OutputFile, Santa_Ynez_DEM_5m_OUT, 2100,custom.CSV
+LineInFile, 9
+NumOnLine, 41
+StartChar, 442
+NumChars, 9
+Delimited, TRUE
+DelimChar, ,
