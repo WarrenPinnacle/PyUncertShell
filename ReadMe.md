@@ -1,6 +1,6 @@
 # PyUncertShell
 
-PyUncertShell is a Python-based uncertainty shell that will perform uncertainty analysis with Latin Hypercube sampling for any software with text inputs and outputs. This project was originally translated from Delphi (Object Pascal) and is provided as-is with no warranties of fitness for any purpose.
+PyUncertShell is a Python-based uncertainty shell that will perform uncertainty analysis with Latin Hypercube sampling for any software with text inputs and outputs. This project was originally translated from Delphi (Object Pascal) and was tested and developed in Python 3.9.  This software is provided as-is with no warranties of fitness for any purpose.
 
 ## Getting Started
 
